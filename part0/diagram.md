@@ -13,7 +13,7 @@ participant server
     Note over browser: browser follows redirect
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
-    activate server:
+    activate server
     server->>browser: HTML document
     deactivate server
 
